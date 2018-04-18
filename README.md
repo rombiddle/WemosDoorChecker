@@ -8,7 +8,6 @@ You will need the following items to implement this project:
 - 1 photoresistor
 - 1 resistor of 10kΩ for the photoresistor
 
-We also made an Android app that get
 
 ## How it works
 
@@ -19,17 +18,14 @@ Once the project is setted up, the wemos send data from the MPU-6050 to our serv
 Then, you can check on the Android App (wherever you are), if a door got opened and someone is inside the room or not.
 
 
-The device checks :
-	- if the door opens and the Android app tells you if someone is in the room.
-	- if the opens again and the Android app tells you that no one is inside the room.
-
 ## Circuit Diagram
 
-![Snake](https://github.com/rombiddle/SnakeArduinoLeonardo/blob/master/images/29830725_10208761236147876_843359766_o.png?raw=true "Snake")
+![HODOR](https://github.com/rombiddle/WemosDoorChecker/blob/master/images/Capture%20d%E2%80%99%C3%A9cran%202018-04-18%20%C3%A0%2010.49.54.png?raw=true "Hodor")
 
-## Video
+## Android App
 
-[![Snake](https://github.com/rombiddle/SnakeArduinoLeonardo/blob/master/images/29883488_10208761250068224_692720117_o.png?raw=true)](https://www.youtube.com/watch?v=Qi7nh-p-SI8 "Snake")
+![HODOR](https://github.com/rombiddle/WemosDoorChecker/blob/master/images/Capture%20d%E2%80%99%C3%A9cran%202018-04-18%20%C3%A0%2011.29.50.png?raw=true "My Beautiful App")
+
 
 ## Library
 
