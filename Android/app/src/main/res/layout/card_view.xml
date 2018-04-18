@@ -75,6 +75,11 @@ android:layout_below="@+id/textRentrer"
             android:layout_height="wrap_content"
             android:id="@+id/textgyx"
             android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textgyz"
+                android:layout_gravity="center"/>
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>

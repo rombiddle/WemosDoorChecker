@@ -33,6 +33,7 @@ public class AdapterDataDoor extends RecyclerView.Adapter<AdapterDataDoor.Holder
         public TextView textgyy;
         public TextView textgyx;
         public TextView textTime;
+        public TextView textgyz;
 
 
         public RelativeLayout cardviewBackground;
@@ -52,6 +53,7 @@ public class AdapterDataDoor extends RecyclerView.Adapter<AdapterDataDoor.Holder
             textgyy = (TextView) itemView.findViewById(R.id.textgyy);
             textgyx = (TextView) itemView.findViewById(R.id.textgyx);
             textTime = (TextView) itemView.findViewById(R.id.textTime);
+            textgyz = (TextView) itemView.findViewById(R.id.textgyz);
 
 
 
@@ -61,12 +63,13 @@ public class AdapterDataDoor extends RecyclerView.Adapter<AdapterDataDoor.Holder
             textView.setText("Rentrer");
             textTime.setText("Date : "+dataDoor.timestmp);
             textTemp.setText("Température : "+dataDoor.tmp);
-            textLight.setText("Lumièrer : "+dataDoor.light);
+            textLight.setText("Lumière : "+dataDoor.light);
             textacx.setText("Acx : "+dataDoor.acx);
             textacy.setText("Acy : "+dataDoor.acy);
             textacz.setText("Acz : "+dataDoor.acz);
             textgyx.setText("Gyx : "+dataDoor.gyx);
             textgyy.setText("Gyy : "+dataDoor.gyy);
+            textgyz.setText("Gyz : "+dataDoor.gyz);
             if (dataDoor.light<800){
                 textView.setText("Sortir");
                 cardviewBackground.setBackgroundColor(ContextCompat.getColor(context, R.color.red));
