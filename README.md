@@ -14,8 +14,8 @@ You will need the following items to implement this project:
 First, you need to stick the device on a door.
 
 This project use an API on our personal VPS.
-Once the project is setted up, the wemos send data from the MPU-6050 to our server every 2.5 seconds.
-Then, you can check on the Android App (wherever you are), if a door got opened and someone is inside the room or not.
+Once the project is setted up, the wemos send data from the MPU-6050 to our server everytime the door get opened and closed.
+Then, you can check on the Android App that get information back from the server. If a door got opened and someone is inside the room, you will see a green cardview otherwise you will see a red cardview.
 
 
 ## Circuit Diagram
@@ -29,9 +29,9 @@ Then, you can check on the Android App (wherever you are), if a door got opened 
 
 ## Library
 
-ESP8266WiFi / ESP8266HTTPClient to connect to the Wifi and make http request
-Wire to communicate with I2C / TWI devices
-ArduinoJson.h to creare JSON object to send to the API
+- ESP8266WiFi / ESP8266HTTPClient to connect to the Wifi and make http request
+- Wire to communicate with I2C / TWI devices
+- ArduinoJson.h to creare JSON object to send to the API
 
 ## Extra feature
 
